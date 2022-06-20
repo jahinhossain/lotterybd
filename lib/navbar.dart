@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:lotterybd/thirdscreen.dart';
+import 'package:lotterybd/fourthscreen.dart';
 
 
 class navbar extends StatefulWidget {
@@ -19,6 +21,11 @@ class _navbarState extends State<navbar> {
 
       body: PageView(
         controller: pageController,
+
+        children: [
+          thirdscreen(),
+          fourthscreen(),
+        ],
 
       ),
 
