@@ -19,7 +19,7 @@ class loginScreen extends StatelessWidget {
         )),
       child: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.transparent,
+          backgroundColor: Colors.brown,
         ),
           backgroundColor:Colors.transparent,
         body: Container(
@@ -79,14 +79,44 @@ class loginScreen extends StatelessWidget {
                   );
                 },
                 child: Container(
+                  alignment: Alignment.center,
+                  height: 50,/// Change height and width as per your need.
+                  width: 300,
+                  child: Container(
+                    color: Colors.brown[700],
+                    alignment: Alignment.center,
+
+
+                    child:   Text("লগইন",style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold),),
+
+
+                  ),
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.5),
+                        spreadRadius: 5,
+                        blurRadius: 7,
+                        offset: Offset(0, 3), // changes position of shadow
+                      ),
+                    ],
+                  ),
+                ),
+
+                /* Container(
+                  alignment: Alignment.center,
                   color: Colors.brown,
                   height: 50,
                   width: 300,
-                  child:Text("Login",style: TextStyle(
+                  child:Text("লগইন",style: TextStyle(
                       color: Colors.white,
-                      fontSize: 40,
+                      fontSize: 25,
                       fontWeight: FontWeight.bold),textAlign: TextAlign.center,) ,
-                ),
+                ), */
               ),
 
             SizedBox(height: 15,),

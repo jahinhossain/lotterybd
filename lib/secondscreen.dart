@@ -15,8 +15,8 @@ class SecondScreen extends StatelessWidget {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Colors.blue,
-            Colors.red,
+            Colors.grey,
+            Colors.white,
           ],
         )),
       child: Scaffold(
@@ -60,7 +60,7 @@ class SecondScreen extends StatelessWidget {
                         height: 50,/// Change height and width as per your need.
                         width: 300,
                         child: Container(
-                            color: Colors.red,
+                            color: Colors.brown[700],
                               alignment: Alignment.center,
 
 
@@ -72,10 +72,10 @@ class SecondScreen extends StatelessWidget {
 
                         ),
                         decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(10),
+                          borderRadius: BorderRadius.circular(16),
                           boxShadow: [
                             BoxShadow(
-                              color: Colors.grey.withOpacity(0.5),
+                              color: Colors.black.withOpacity(0.5),
                               spreadRadius: 5,
                               blurRadius: 7,
                               offset: Offset(0, 3), // changes position of shadow

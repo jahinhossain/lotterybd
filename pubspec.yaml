@@ -28,12 +28,12 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   flutter_lints: ^2.0.0
-  custom_navigation_bar: any
-  bottom_navy_bar: ^3.0.0
+
   font_awesome_flutter: any
   flutter_launcher_icons: ^0.9.3
   animated_text_kit: ^4.2.2
   getwidget: any
+  google_nav_bar: any
 
   flutter:
     sdk: flutter
@@ -70,8 +70,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  assets:
-    - assets/
+
+
 
 
 
