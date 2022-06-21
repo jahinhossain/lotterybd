@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lotterybd/main.dart';
+import 'package:lotterybd/signup.dart';
 import 'package:lotterybd/thirdscreen.dart';
 import 'package:lotterybd/navbar.dart';
 import 'package:lotterybd/login.dart';
@@ -52,7 +53,7 @@ class SecondScreen extends StatelessWidget {
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => loginScreen()),
+                          MaterialPageRoute(builder: (context) => signup()),
                         );
                       },
                       child:Container(
@@ -64,7 +65,7 @@ class SecondScreen extends StatelessWidget {
                               alignment: Alignment.center,
 
 
-                              child:   Text("পরবর্তী পৃষ্ঠা",style: TextStyle(
+                              child:   Text("নিবন্ধন",style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold),),
