@@ -57,17 +57,11 @@ class thirdscreen extends StatelessWidget {
                           ),
                         ),
                       ),
-                        
-                        Positioned( top: 25, left: 50, bottom: 10,
-                          child: Text("200 TAKA",style: TextStyle(
-                            color: Colors.brown[800],
-                            fontSize: 25,
-                            fontWeight: FontWeight.bold)),),
-                        Positioned(  left: 50, top: 250,
-                          child: Text("200 TAKA",style: TextStyle(
-                              color: Colors.brown[800],
-                              fontSize: 25,
-                              fontWeight: FontWeight.bold)),),
+
+                        Positioned(  left: 50, bottom: 215,
+                          child: new Image.asset('assets/download.jpg',width: 100,height: 100,), ),
+                        Positioned(  left: 50, top: 215,
+                          child: new Image.asset('assets/download.jpg',width: 100,height: 100,), ),
 
                       ]
                     ),
