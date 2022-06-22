@@ -44,7 +44,7 @@ class _navbarState extends State<navbar> {
     _selectedIndex = index;
     });},
 
-             iconSize: 28,
+             iconSize: 30,
              gap: 8,
              backgroundColor: Colors.black,
              color: Colors.white,

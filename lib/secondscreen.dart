@@ -16,8 +16,8 @@ class SecondScreen extends StatelessWidget {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Colors.grey,
-            Colors.white,
+            Colors.lightGreen,
+            Colors.green,
           ],
         )),
       child: Scaffold(
@@ -66,7 +66,7 @@ class SecondScreen extends StatelessWidget {
 
 
                               child:   Text("নিবন্ধন",style: TextStyle(
-                                  color: Colors.black,
+                                  color: Colors.white,
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold),),
 

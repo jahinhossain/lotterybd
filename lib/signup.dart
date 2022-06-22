@@ -16,8 +16,8 @@ class signup extends StatelessWidget {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Colors.grey,
-            Colors.white,
+            Colors.lightGreen,
+            Colors.green,
           ],
         )),
       child: Scaffold(

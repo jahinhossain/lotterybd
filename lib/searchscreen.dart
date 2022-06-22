@@ -15,8 +15,8 @@ class _searchscreenState extends State<searchscreen> {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
           colors: [
-            Colors.grey,
-            Colors.white,
+            Colors.lightGreen,
+            Colors.green,
           ],
         )),
       child: Scaffold(

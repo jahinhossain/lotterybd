@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:lotterybd/customContainer.dart';
 
 class fourthscreen extends StatelessWidget {
   const fourthscreen({Key? key}) : super(key: key);
@@ -14,8 +13,8 @@ class fourthscreen extends StatelessWidget {
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
             colors: [
-              Colors.grey,
-              Colors.white,
+              Colors.lightGreen,
+              Colors.green,
             ],
           )),
 

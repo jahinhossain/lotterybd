@@ -13,8 +13,8 @@ class thirdscreen extends StatelessWidget {
             begin: Alignment.topRight,
             end: Alignment.bottomLeft,
             colors: [
-              Colors.grey,
-              Colors.white,
+              Colors.lightGreen,
+              Colors.green,
             ],
           )),
       child: Scaffold(
@@ -36,25 +36,44 @@ class thirdscreen extends StatelessWidget {
 
                   Padding(
                     padding: const EdgeInsets.only(left: 25),
-                    child: Container(
-                      width: 200,
-                      height: 300,
-                      color: Colors.orange,
-                      alignment: Alignment.center,
-                      child: Container(
-                        width: 100,
-                        height: 150,
-                        color: Colors.white,
-                        child:  Padding(
-                          padding: const EdgeInsets.only(top: 80),
-                          child: Text("লটারি",style: TextStyle(
-                              color: Colors.brown[800],
-                              fontSize: 25,
-                              fontWeight: FontWeight.bold),textAlign: TextAlign.center),
+                    child: Stack(
+                      children: [
+
+                      Container(
+                        width: 200,
+                        height: 300,
+                        color: Colors.orange,
+                        alignment: Alignment.center,
+                        child: Container(
+                          width: 100,
+                          height: 150,
+                          color: Colors.white,
+                          child:  Padding(
+                            padding: const EdgeInsets.only(top: 80),
+                            child: Text("লটারি",style: TextStyle(
+                                color: Colors.brown[800],
+                                fontSize: 25,
+                                fontWeight: FontWeight.bold),textAlign: TextAlign.center),
+                          ),
                         ),
                       ),
+                        
+                        Positioned( top: 25, left: 50, bottom: 10,
+                          child: Text("200 TAKA",style: TextStyle(
+                            color: Colors.brown[800],
+                            fontSize: 25,
+                            fontWeight: FontWeight.bold)),),
+                        Positioned(  left: 50, top: 250,
+                          child: Text("200 TAKA",style: TextStyle(
+                              color: Colors.brown[800],
+                              fontSize: 25,
+                              fontWeight: FontWeight.bold)),),
+
+                      ]
                     ),
                   ),
+
+
 
                   SizedBox(
 
