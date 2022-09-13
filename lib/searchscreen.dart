@@ -49,30 +49,41 @@ class SearchPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-          backgroundColor: Colors.brown,
-        // The search area here
-          title: Container(
-            width: double.infinity,
-            height: 40,
-            decoration: BoxDecoration(
-                color: Colors.white, borderRadius: BorderRadius.circular(5)),
-            child: Center(
-              child: TextField(
-                decoration: InputDecoration(
-                    prefixIcon: const Icon(Icons.search),
-                    suffixIcon: IconButton(
-                      icon: const Icon(Icons.clear),
-                      onPressed: () {
-                        /* Clear the search field */
-                      },
-                    ),
-                    hintText: 'Search...',
-                    border: InputBorder.none),
+    return Container(decoration: BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topRight,
+          end: Alignment.bottomLeft,
+          colors: [
+            Colors.lightGreen,
+            Colors.green,
+          ],
+        )),
+      child: Scaffold(
+        backgroundColor: Colors.transparent,
+        appBar: AppBar(
+            backgroundColor: Colors.brown,
+          // The search area here
+            title: Container(
+              width: double.infinity,
+              height: 40,
+              decoration: BoxDecoration(
+                  color: Colors.white, borderRadius: BorderRadius.circular(5)),
+              child: Center(
+                child: TextField(
+                  decoration: InputDecoration(
+                      prefixIcon: const Icon(Icons.search),
+                      suffixIcon: IconButton(
+                        icon: const Icon(Icons.clear),
+                        onPressed: () {
+                          /* Clear the search field */
+                        },
+                      ),
+                      hintText: 'Search...',
+                      border: InputBorder.none),
+                ),
               ),
-            ),
-          )),
+            )),
+      ),
     );
 
 
