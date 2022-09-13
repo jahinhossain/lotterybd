@@ -4,6 +4,7 @@ import 'package:lotterybd/searchscreen.dart';
 import 'package:lotterybd/thirdscreen.dart';
 import 'package:lotterybd/fourthscreen.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:lotterybd/profilepage.dart';
 
 
 
@@ -24,7 +25,7 @@ class _navbarState extends State<navbar> {
     thirdscreen(),
    fourthscreen(),
   searchscreen(),
-    Center(child: Text("User Profile Under construction")),
+    profile(),
 
   ];
 
